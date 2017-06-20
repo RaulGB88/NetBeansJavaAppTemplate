@@ -1,5 +1,5 @@
-/* 
- * Copyright 2016 Raúl Granel Blasco - raul.granel@gmail.com.
+/*
+ * Copyright 2017 (c) Raúl Granel Blasco - raul.granel@gmail.com.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,26 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package main;
-
-import app.App;
+package app;
 
 /**
  *
- * @author Raúl Granel Blasco - raul.granel@gmail.com
- *
- * Arranque e inicialización de la aplicación
+ * @author (c) Raúl Granel Blasco - raul.granel@gmail.com
  */
-public class Main {
+public class App {
 
-    // Punto de entrada a la aplicación
-    public static void main(String[] args) {
+    // Entrada al Mecanismo Funcional
+    public void launchApp() {
 
-        // Crear aplicación
-        App app = new App();
-
-        // Lanzar aplicación
-        app.launchApp();
     }
-
+    
 }
